@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cn",
+    "title": "USACE HEC-HMS Technical Reference: SCS Curve Number Loss Model",
+    "url": "https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/canopy-surface-infiltration-and-runoff-volume/infiltration/scs-curve-number-loss-model",
+    "accessed": "2026-09-08",
+    "use": "Cumulative event runoff equation, incremental differencing, and event-only limitation. CN 98 is a project assumption."
+  },
+  {
+    "id": "uh",
+    "title": "USACE HEC-HMS Technical Reference: SCS Unit Hydrograph Model",
+    "url": "https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/transform/scs-unit-hydrograph-model",
+    "accessed": "2026-09-08",
+    "use": "Tp = lag + excess-rainfall interval / 2; dimensionless hydrograph interpretation."
+  },
+  {
+    "id": "ordinates",
+    "title": "TxDOT Hydraulic Design Manual: NRCS Dimensionless Unit Hydrograph, Table 4-29",
+    "url": "https://www.txdot.gov/manuals/des/hyd/chapter-4--hydrology/section-13--hydrograph-method/nrcs-dimensionless-unit-hydrograph.html",
+    "accessed": "2026-09-08",
+    "use": "All 33 time and discharge ordinate pairs in scs_dimensionless_uh.csv, including terminal (5, 0). Table 4-29, not the rounded worked example in Table 4-30."
+  },
+  {
+    "id": "routing",
+    "title": "USACE HEC-HMS Technical Reference: Reservoir Modeling Concepts and Equations",
+    "url": "https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/reservoir-modeling/reservoir-modeling-concepts-and-equations",
+    "accessed": "2026-09-08",
+    "use": "Level-pool continuity and storage/outflow relationships. This project uses backward Euler, not the manual's trapezoidal Modified Puls implementation."
+  },
+  {
+    "id": "outlet",
+    "title": "USACE HEC-HMS User's Manual: Outflow Structures Routing",
+    "url": "https://www.hec.usace.army.mil/confluence/hmsdocs/hmsum/latest/reservoir-elements/outflow-structures-routing",
+    "accessed": "2026-09-08",
+    "use": "Outlet submergence limitations. The vertically integrated floor opening with constant Cd is the project's idealized rating, not a copied or calibrated HEC-HMS structure."
+  },
+  {
+    "id": "selection",
+    "title": "TxDOT Hydraulic Design Manual: Selection of the Appropriate Method for Calculating Runoff",
+    "url": "https://www.txdot.gov/manuals/des/hyd/chapter-4--hydrology/section-7--selection-of-the-appropriate-method-for.html",
+    "accessed": "2026-09-08",
+    "use": "Need for an event hydrograph for storage calculations rather than a peak-only runoff estimate."
+  }
+]

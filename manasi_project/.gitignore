@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.cache/
+.playwright-mcp/
+engineering_report.aux
+engineering_report.log
+engineering_report.out
+experiments/

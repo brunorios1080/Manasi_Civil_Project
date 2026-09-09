@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-09-08T21:45:09.799719+00:00",
+  "report": {
+    "pages": 6,
+    "review": "All six rendered pages inspected for legibility, figure labels, clipping, and layout; final versions rendered again after the reproducibility run."
+  },
+  "drawing": {
+    "ezdxf_version": "1.4.4",
+    "dxf_version": "AC1009",
+    "entities": 67,
+    "errors": 0,
+    "automatic_repairs": 0,
+    "manual_AutoCAD_review": false
+  },
+  "infeasible_branch": {
+    "status": "infeasible",
+    "candidate_count": 1,
+    "storm_count": 9,
+    "artifact_audit_passed": true
+  },
+  "browser": {
+  "offline": true,
+  "network_requests": [],
+  "page_errors": [],
+  "baseline": {
+    "outlet_disabled": true,
+    "traces": 3
+  },
+  "full_drainage_range_h": [
+    0,
+    30
+  ],
+  "cases_checked": 216,
+  "failures": [],
+  "mobile_viewport_width": 390,
+  "mobile_document_width": 390
+},
+  "artifact_sha256": {
+    "stormwater_dashboard.html": "f37fdcbd9d540e5f4b99853989b9586cce13d18f025e8ab397adb02a4156835a",
+    "engineering_report.pdf": "a61e0f794d2a666667fdb0d23659888e8b8d4d388bfce4997590d09d74c5c4d9",
+    "site_plan.dxf": "192a033d59bc8a8c9f1f3d9265206f19fe45cd5335e328d2e113e2c6a2311350",
+    "site_plan.svg": "19d886a45240f08accf4eee56a10203fac6a5e10c01757f3be81f0d134cd0ea8",
+    "stormwater_calculations.xlsx": "bd5aa62d411329e0be861e575457ab7ba3c33550bc5984b645b651d2aff7c81a"
+  }
+}

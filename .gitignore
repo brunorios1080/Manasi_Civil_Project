@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.cache/
+.playwright-mcp/
+.vercel/
+.env
+.env.*
+node_modules/
+build/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

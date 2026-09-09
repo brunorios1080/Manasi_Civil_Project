@@ -1,0 +1,143 @@
+% Compile with: pdflatex -interaction=nonstopmode -halt-on-error Manasi_Thapa_Resume.tex
+% Self-contained, single-column resume. No external fonts or image assets required.
+% Existing qualifications come from the supplied resume; project metrics come
+% from manasi_project/FINDINGS.md. Project programming was done by a collaborator.
+% Civil 3D is listed as coursework, not an independent skill.
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[letterpaper,left=0.68in,right=0.68in,top=0.58in,bottom=0.58in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\IfFileExists{sourcesans.sty}
+  {\usepackage[default,semibold]{sourcesans}}
+  {\usepackage[default,semibold]{sourcesanspro}}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{hyperref}
+
+% Searchable text and reliable character extraction from the PDF.
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{accent}{HTML}{500000}
+\definecolor{ink}{HTML}{222222}
+\definecolor{muted}{HTML}{505050}
+\definecolor{rulegray}{HTML}{D8D2D2}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=ink,
+  linkcolor=ink,
+  pdftitle={Manasi Emilia Thapa | Civil Engineering Resume},
+  pdfauthor={Manasi Emilia Thapa},
+  pdfsubject={Civil engineering internship resume},
+  pdfkeywords={Civil Engineering, Texas A\&M University, AutoCAD, Python, Excel}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\linespread{1.035}
+\raggedright
+\color{ink}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0pt}{}
+  [\vspace{2pt}{\color{rulegray}\titlerule[0.45pt]}]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+\setlist[itemize]{
+  leftmargin=1.15em,
+  label=\textbullet,
+  labelsep=0.5em,
+  topsep=3pt,
+  itemsep=3pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+% Ordinary text paragraphs preserve a natural reading order for resume parsers.
+\newcommand{\entry}[4]{%
+  \Needspace{5\baselineskip}%
+  \textbf{#1}\hfill{\small\color{muted}#2}\par
+  {\itshape #3}\hfill{\small\color{muted}#4}\par
+}
+\newcommand{\contactsep}{\hspace{0.65em}{\color{muted}\textbar}\hspace{0.65em}}
+
+\begin{document}
+
+{\fontsize{29}{33}\selectfont\bfseries\color{accent}Manasi Emilia Thapa}\par
+\vspace{3pt}
+{\fontsize{11}{13}\selectfont\bfseries\color{muted}CIVIL ENGINEERING STUDENT}\par
+\vspace{6pt}
+{\small
+  Pflugerville, TX\contactsep
+  \href{tel:+15126494615}{512-649-4615}\contactsep
+  \href{mailto:Manasithapa12@gmail.com}{Manasithapa12@gmail.com}
+}\par
+\vspace{9pt}
+{\color{accent}\hrule height 1.15pt}
+\vspace{9pt}
+
+Civil engineering student seeking internships in sustainable infrastructure,
+water systems, and community-focused design.
+
+\section{Education}
+\entry{Texas A\&M University}{College Station, TX}
+      {Bachelor of Science in Civil Engineering}{Expected May 2028}
+\vspace{3pt}
+\textbf{Cumulative GPA: 3.8}\par
+\vspace{4pt}
+\textbf{Relevant coursework:} AutoCAD/Civil 3D, Statics, Mechanics of Materials,
+Fluid Dynamics, Surveying, Numerical Methods, Civil Engineering Systems.
+
+\section{Engineering Project}
+\entry{Stormwater Detention Design Study}{May 2026}
+      {Exploratory Project, Collaboration With Programmer}
+      {\href{https://manasi-stormwater-study.vercel.app}{\textcolor{accent}{View Project Dashboard}}}
+\begin{itemize}
+  \item Conceived and planned a stormwater detention study for a 4,000\,m\textsuperscript{2}
+        parking lot; defined project goals and a comparison of 24 designs across nine
+        synthetic storms (216 scenarios).
+  \item Planned evaluation of storage/outlet sizing, peak flow, overflow, and drawdown,
+        including 27 sensitivity cases; collaborated with a programmer on program execution.
+  \item Study result: 150\,m\textsuperscript{3} storage and a 100\,mm square outlet achieved
+        modeled 63--74\% peak-flow reduction, zero overflow, and drawdown within 7.9 hours
+        across three 50\,mm storm profiles.
+\end{itemize}
+
+\section{Skills}
+\textbf{Design software:} AutoCAD (intermediate), Autodesk Inventor (intermediate)\par
+\vspace{3pt}
+\textbf{Programming \& analysis:} Python (intermediate), Microsoft Excel (intermediate)\par
+\vspace{3pt}
+\textbf{Project management:} Intermediate proficiency
+
+\section{Experience}
+\entry{Amazon}{Traverse City, MI}
+      {Logistics Associate}{Summer 2025}
+\begin{itemize}
+  \item Supported package flow through sorting, dock operations, and inventory handling.
+  \item Adapted to changing operational workflows while following strict safety procedures.
+\end{itemize}
+\vspace{7pt}
+\entry{Chipotle}{Round Rock, TX}
+      {Front of House Trainer}{June 2023 -- August 2024}
+\begin{itemize}
+  \item Oversaw front-of-house operations and trained new employees in daily service workflows.
+  \item Supported inventory management and food safety compliance alongside daily service responsibilities.
+\end{itemize}
+
+\section{Professional Involvement}
+\textbf{Structural Engineers Association of Texas}\hfill{\small\color{muted}January 2026 -- Present}\par
+Member; seminars, networking, and annual symposium.\par
+\vspace{5pt}
+\textbf{American Society of Civil Engineers (ASCE)}\hfill{\small\color{muted}January 2026 -- Present}\par
+Texas A\&M Student Chapter member; firm presentations and chapter events.
+
+\end{document}

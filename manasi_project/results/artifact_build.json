@@ -1,0 +1,44 @@
+{
+  "figures": {
+    "figure_files": [
+      "results/figures/design_comparison.pdf",
+      "results/figures/design_comparison.png",
+      "results/figures/design_hydrographs.pdf",
+      "results/figures/design_hydrographs.png",
+      "results/figures/drawdown_and_overflow.pdf",
+      "results/figures/drawdown_and_overflow.png",
+      "results/figures/site_plan.png"
+    ]
+  },
+  "drawings": {
+    "capacity_m3": 150.0,
+    "depth_m": 0.75,
+    "outlet_side_mm": 100.0,
+    "cad_format": "ASCII DXF R12",
+    "cad_units": "1 unit = 1 metre; specify metres on import",
+    "section_geometry": "True coordinates in DXF; SVG/PDF plan and section use separate scales"
+  },
+  "dashboard": {
+    "candidate_cases": 216,
+    "baseline_events": 9,
+    "bytes": 13628797
+  },
+  "workbook": {
+    "passed": true,
+    "formulas_evaluated": 356,
+    "errors": [],
+    "method": "Restricted independent evaluator re-read every saved Excel formula and checked every cache; Excel GUI was not used.",
+    "independent_pass_cells": [
+      "Storage check!B18",
+      "Implicit step!J7",
+      "Runoff checks!J5",
+      "Runoff checks!J6",
+      "Runoff checks!J7"
+    ],
+    "charts": 3
+  },
+  "report": {
+    "pdflatex_runs": 2,
+    "report_pdf_bytes": 710136
+  }
+}

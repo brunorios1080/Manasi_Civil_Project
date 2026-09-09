@@ -1,0 +1,17 @@
+{
+  "selected": {
+    "design_id": "h0.750_o100",
+    "capacity_m3": 150.0,
+    "storage_depth_m": 0.75,
+    "outlet_side_mm": 100.0,
+    "all_design_storms_pass": true,
+    "worst_peak_reduction_pct": 63.088747915752876,
+    "worst_overflow_m3": 0.0,
+    "worst_drawdown_h": 7.805989400841937,
+    "passing_shapes": 3
+  },
+  "design_rainfall_mm": 50.0,
+  "final_dt_s": 1.875,
+  "tie_break": "Lowest capacity; then shortest worst-case drawdown across design storm shapes; then least overflow; then largest opening.",
+  "status": "feasible"
+}

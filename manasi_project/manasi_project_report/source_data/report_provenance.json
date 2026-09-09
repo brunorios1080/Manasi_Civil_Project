@@ -1,0 +1,40 @@
+{
+  "report_snapshot_utc": "2026-09-08T23:08:19.314998+00:00",
+  "basis": "Existing completed project run; no full simulation rerun for report preparation.",
+  "snapshot_sha256": {
+    "results/scenarios.csv": "cae38e061e87afb6e6d6de779724bc50c1f606bd217cf3ce4455d3cf5370fe2a",
+    "results/baselines.csv": "6e2b64f1eee04cb9dbb26d0b39693b27e2fceee254c335e1758774ed87f3852a",
+    "results/design_selection.csv": "835344ef0f972fae7c7b7ff0848125b61e728c914dd484afd4e7ecaa23e10d81",
+    "results/selection.json": "c86e01ac35542484f59664eb980306c3d669ce2c07624a4d4cc1fe84bcacd3bf",
+    "results/convergence.csv": "b86e725ce1221990e275111814ac0cae1ed429d6b97e979dcb8efddf82e8c2ec",
+    "results/sensitivity.csv": "11b7a77823248b03a980840fc667d8286a7df38a0c98d31bc7e28c8b45279f68",
+    "results/config_used.json": "e4725e52d41877166b8824997ba81895d00b2c92e123fc9c97b7cb1e497643ed",
+    "results/run_manifest.json": "1fc1643678416879c6e016fbb19f4b33098b49cc6449fd2f7cf0b49c6dbe5901",
+    "results/independent_checks.json": "10c42f168e321328909162e541861410086abb977971862bff412174cc158a8a",
+    "results/test_results.txt": "c5677edba981fe4b56d39bb0628ce07246bab875d55b3e8994a78320c027d6d8",
+    "results/artifact_audit.json": "54f08bd7e734d379c4a472217bbb9e88a5c8aa6772b5f10aaf597e029d203be3",
+    "results/reproducibility_check.json": "eba54349f427377fdce046f08d9c14debd25bb6e08afd94eee9fd16a09cccd3c"
+  },
+  "project_sources_match_recorded_run": {
+    "stormwater/deliverables.py": true,
+    "stormwater/workbook.py": true,
+    "stormwater/hydrology.py": true,
+    "stormwater/__init__.py": true,
+    "stormwater/dashboard.py": true,
+    "stormwater/routing.py": true,
+    "stormwater/figures.py": true,
+    "stormwater/study.py": true,
+    "stormwater/reporting.py": true,
+    "tests/test_model.py": true,
+    "inputs/sources.json": true,
+    "inputs/config.json": true,
+    "inputs/README.md": true,
+    "inputs/scs_dimensionless_uh.csv": true,
+    "run_project.py": true
+  },
+  "unit_tests_rerun_for_report": {
+    "tests": 16,
+    "passed": true
+  },
+  "note": "Artifact audit and reproducibility records describe the original project outputs; the new report is compiled and reviewed separately."
+}

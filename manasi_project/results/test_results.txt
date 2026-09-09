@@ -1,0 +1,21 @@
+test_all_rain_shapes_and_partial_blocks (test_model.HydrologyTests.test_all_rain_shapes_and_partial_blocks) ... ok
+test_cn100 (test_model.HydrologyTests.test_cn100) ... ok
+test_cn_independent_decimal_check (test_model.HydrologyTests.test_cn_independent_decimal_check) ... ok
+test_event_differencing_and_tail (test_model.HydrologyTests.test_event_differencing_and_tail) ... ok
+test_invalid_inputs (test_model.HydrologyTests.test_invalid_inputs) ... ok
+test_single_pulse_timing_volume_full_tail (test_model.HydrologyTests.test_single_pulse_timing_volume_full_tail) ... ok
+test_zero_and_abstraction (test_model.HydrologyTests.test_zero_and_abstraction) ... ok
+test_analytical_shallow_drainage_converges (test_model.RoutingTests.test_analytical_shallow_drainage_converges) ... ok
+test_blocked_outlet_and_overflow (test_model.RoutingTests.test_blocked_outlet_and_overflow) ... ok
+test_deep_orifice_centroid_approximation (test_model.RoutingTests.test_deep_orifice_centroid_approximation) ... ok
+test_drawdown_uses_final_crossing (test_model.RoutingTests.test_drawdown_uses_final_crossing) ... ok
+test_empty_zero_rainfall (test_model.RoutingTests.test_empty_zero_rainfall) ... ok
+test_insufficient_storage_keeps_water (test_model.RoutingTests.test_insufficient_storage_keeps_water) ... ok
+test_rating_by_independent_quadrature (test_model.RoutingTests.test_rating_by_independent_quadrature) ... ok
+test_rating_monotonic_continuous (test_model.RoutingTests.test_rating_monotonic_continuous) ... ok
+test_step_equation_and_mass_balance (test_model.RoutingTests.test_step_equation_and_mass_balance) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.011s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "errors": [],
+  "saved_time_series_checked": 216,
+  "largest_saved_series_balance_error_m3": 6.670876490089128e-10,
+  "workbook": {
+    "passed": true,
+    "formulas_evaluated": 356,
+    "errors": [],
+    "method": "Restricted independent evaluator re-read every saved Excel formula and checked every cache; Excel GUI was not used.",
+    "independent_pass_cells": [
+      "Storage check!B18",
+      "Implicit step!J7",
+      "Runoff checks!J5",
+      "Runoff checks!J6",
+      "Runoff checks!J7"
+    ],
+    "charts": 3
+  },
+  "dashboard_cases_checked": 216,
+  "dashboard_has_external_rendering_dependencies": false,
+  "dxf_entity_count": 67,
+  "report_pages": 6,
+  "note": "This automatic audit checks numerical artifacts and document structure. Separate browser and visual inspection are recorded in results/visual_review.json when performed."
+}

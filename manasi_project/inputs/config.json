@@ -1,0 +1,41 @@
+{
+  "parking_area_m2": 4000.0,
+  "basin_area_m2": 200.0,
+  "parking_length_m": 80.0,
+  "parking_width_m": 50.0,
+  "basin_length_m": 20.0,
+  "basin_width_m": 10.0,
+  "curve_number": 98.0,
+  "abstraction_ratio": 0.2,
+  "lag_min": 10.0,
+  "rainfall_depths_mm": [25.0, 50.0, 100.0],
+  "design_rainfall_mm": 50.0,
+  "rainfall_duration_min": 60.0,
+  "rainfall_weights": {
+    "uniform": [1, 1, 1, 1, 1, 1],
+    "front_loaded": [6, 5, 4, 3, 2, 1],
+    "back_loaded": [1, 2, 3, 4, 5, 6]
+  },
+  "storage_depths_m": [0.15, 0.30, 0.45, 0.60, 0.75, 0.90],
+  "outlet_sides_mm": [40, 60, 80, 100],
+  "discharge_coefficient": 0.62,
+  "gravity_m_s2": 9.80665,
+  "initial_storage_m3": 0.0,
+  "basin_infiltration_mm_h": 0.0,
+  "evaporation_mm_h": 0.0,
+  "time_step_s": 30.0,
+  "horizon_h": 30.0,
+  "max_horizon_h": 240.0,
+  "minimum_peak_reduction_pct": 50.0,
+  "drawdown_fraction": 0.01,
+  "drawdown_limit_h": 24.0,
+  "overflow_tolerance_m3": 0.000001,
+  "balance_absolute_tolerance_m3": 0.00000001,
+  "balance_relative_tolerance": 0.001,
+  "convergence_relative_tolerance": 0.01,
+  "sensitivity": {
+    "curve_number": [95.0, 98.0, 100.0],
+    "lag_min": [5.0, 10.0, 15.0],
+    "discharge_coefficient": [0.50, 0.62, 0.75]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "started_utc": "2026-09-08T21:39:01.899467+00:00",
+  "status": "complete",
+  "config_sha256": "d0203413751ace519bcd963d74d3d79fe3f090d77bfff42a37edc2730da74441",
+  "python": "3.14.3 | packaged by conda-forge | (main, Feb  9 2026, 22:09:14) [Clang 20.1.8 ]",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "executable": "/Users/bruno/miniconda3/envs/psrc/bin/python",
+  "command": [
+    "run_project.py"
+  ],
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "plotly": "6.7.0",
+    "openpyxl": "3.1.5",
+    "xlsxwriter": "3.2.9",
+    "PyMuPDF": "1.28.0"
+  },
+  "unit_tests_passed": 16,
+  "model_runtime_s": 301.6012120420346,
+  "tested_resolutions_s": [
+    30.0,
+    15.0,
+    7.5,
+    3.75,
+    1.875
+  ],
+  "final_dt_s": 1.875,
+  "candidate_event_cases": 216,
+  "baseline_events": 9,
+  "sensitivity_cases": 27,
+  "max_balance_errors": {
+    "runoff_generation_error_m3": {
+      "absolute_m3": 1.4210854715202004e-14,
+      "relative": 1.6956855592882e-16
+    },
+    "transform_error_m3": {
+      "absolute_m3": 2.842170943040401e-14,
+      "relative": 1.8032990864029048e-16
+    },
+    "routing_balance_error_m3": {
+      "absolute_m3": 1.0037792402828316e-09,
+      "relative": 5.364837810246984e-12
+    }
+  },
+  "median_case_runtime_s": 0.3662518750061281,
+  "max_case_runtime_s": 1.1556341249961406,
+  "model_status": "verified",
+  "artifact_runtime_s": 12.093748292070813,
+  "peak_process_memory_mib": 408.515625,
+  "total_runtime_s": 314.24717512505595,
+  "finished_utc": "2026-09-08T21:44:16.126560+00:00",
+  "source_hashes": {
+    "stormwater/deliverables.py": "4225a604e58b244bf3fab1c54fe81cee66086c0a1521314d90e367285d07c7d8",
+    "stormwater/workbook.py": "cef564aefc4fb2536bf4cd1cdd401a4bff053e3bf8f137a006d250eb445fed1a",
+    "stormwater/hydrology.py": "d5f2a266c51cd2046052e3efec4ab7e7f55269f5d3b6643da730513ee39a1d68",
+    "stormwater/__init__.py": "fd4dce5433dddabe97589a637a0f96817939f23d85ce721545c21dad189aeeb8",
+    "stormwater/dashboard.py": "2d4e12c57ec2a824a69e2335988fda7311694fe32d2063868abb3afa88810ed3",
+    "stormwater/routing.py": "be3ed53c6c0512ea87d51f1b51151414383c193c1607233251df1b2194a5cbf9",
+    "stormwater/figures.py": "1b1fb7e371436494cf2c798f6bc6a6d9e02841c76931e40fb638d23cb4f63c11",
+    "stormwater/study.py": "1959eda2c49f40399559f82e0a428936d8799f8b0cfdb8f53ddd8472a24d8f5f",
+    "stormwater/reporting.py": "843884040fa8bc971b159398023558777af74832ca534896147df6239bd504d2",
+    "tests/test_model.py": "636ea1f70ed23f9fc7a62d6513239c4e8b3c06766f2a465f67e93cd336ba5f3b",
+    "inputs/sources.json": "558bc58106a770e89d7a7e2a55d9469e05a11e37288d9fe639b0a538566d2299",
+    "inputs/config.json": "28c099ea5381aed2b1981ba97ee8aabc9f6f5f2a2eb6eaba0b72a2e4ee6763e6",
+    "inputs/README.md": "48d4a77d8c7a465fb5a9dc598d4fe0c7787a2d81b34747b72cb515d4b6a288ea",
+    "inputs/scs_dimensionless_uh.csv": "b465694f902953d282e964c34c7a535adc4cb8c833948ffca7c2a5080d871709",
+    "run_project.py": "c37c07c9e2da5ac290264c5c06f3404c8bfcc7de001deb5d1de9083c1fe8c53a"
+  }
+}

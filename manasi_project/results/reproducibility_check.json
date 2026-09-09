@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-08T21:45:09.347308+00:00",
+  "passed": true,
+  "method": "Independent complete one-command rerun compared with the previous saved run; all non-runtime CSV fields compared exactly.",
+  "tables": [
+    {
+      "file": "scenarios.csv",
+      "rows": 216,
+      "compared_columns": 38,
+      "exact_match": true
+    },
+    {
+      "file": "baselines.csv",
+      "rows": 9,
+      "compared_columns": 17,
+      "exact_match": true
+    },
+    {
+      "file": "sensitivity.csv",
+      "rows": 27,
+      "compared_columns": 41,
+      "exact_match": true
+    }
+  ],
+  "selection_exact_match": true,
+  "source_hashes_match": true,
+  "full_run_runtime_s": 314.24717512505595
+}
